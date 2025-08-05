@@ -20,9 +20,12 @@ Audio Signal Analyzer is a Python application with a graphical user interface (G
 First, install the required Python packages:
 
 ```bash
+
 pip install numpy matplotlib librosa pywavelets soundfile scipy
 
 
 ## Usage
+
+```bash
 
 python audio_analyzer.py
