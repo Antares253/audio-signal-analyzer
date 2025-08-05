@@ -1,39 +1,28 @@
 # Audio Signal Analyzer
 
-Desktop application for visualizing audio signals using Python.
+Audio Signal Analyzer is a Python application with a graphical user interface (GUI) for loading and visualizing audio signals. It enables display of amplitude in the time domain, spectrogram (STFT), wavelet transformation and STFT sound analysis.
+
+---
 
 ## Features
-- Load WAV or MP3 audio files
-- Display waveform over time
-- Spectrogram using Short-Time Fourier Transform (STFT)
-- Wavelet transform visualization (db4)
-- STFT magnitude spectrogram
 
-## Technologies
-- Python 3
-- Tkinter (GUI)
-- librosa
-- PyWavelets
-- matplotlib
+- Loading audio files (wav, mp3)
+- Display of the audio signal wave (amplitude over time)
+- Spectrogram using Short-Time Fourier Transform (STFT)
+- Wavelet signal analysis (db4 wavelet)
+- Display of STFT results with frequency and time axis
+- Intuitive GUI interface built using Tkinter and Matplotlib
+
+---
 
 ## Installation
 
-1. Clone the repo:
+First, install the required Python packages:
 
 ```bash
-git clone https://github.com/yourusername/audio-signal-analyzer.git
-cd audio-signal-analyzer
+pip install numpy matplotlib librosa pywavelets soundfile scipy
 
-    Install dependencies:
 
-pip install -r requirements.txt
-
-    Run the app:
+## Usage
 
 python audio_analyzer.py
-
-Usage
-
-    Click the "Insert audio file" button to select an audio file.
-
-    V
